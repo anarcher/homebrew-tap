@@ -1,16 +1,16 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
+
 class Kroller < Formula
   desc "kroller"
   homepage "https://github.com/anarcher/kroller"
   license ""
-  version "0.2.0"
+  version "0.3.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/anarcher/kroller/releases/download/v0.2.0/kroller_0.2.0_darwin_amd64.tar.gz"
-      sha256 "bb7235d021acf375c630d5c2041b108f2f08e6edcd31f97086bb8422397d87ec"
+      url "https://github.com/anarcher/kroller/releases/download/v0.3.0/kroller_0.3.0_darwin_amd64.tar.gz"
+      sha257 "2db3cb5f9c63bfc1688b8da119c2b4b96f17ddc17b940dd1bb11e5c41df1ff73"
 
       def install
         bin.install "kroller"
@@ -18,8 +18,8 @@ class Kroller < Formula
     end
 
     if Hardware::CPU.arm?
-      url "https://github.com/anarcher/kroller/releases/download/v0.2.0/kroller_0.2.0_darwin_arm64.tar.gz"
-      sha256 "7a9e2ee734d4ea35e3534a489e7eaa1d4bd37ca704dbd63a8a62af747bd0ee72"
+      url "https://github.com/anarcher/kroller/releases/download/v0.3.0/kroller_0.3.0_darwin_arm64.tar.gz"
+      sha256 "7aca99a16d10b8aae89c859e80d03607e6d59057741df8f503e99a6f0ea66287"
 
       def install 
         bin.install "kroller"
