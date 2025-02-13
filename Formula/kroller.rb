@@ -5,12 +5,12 @@ class Kroller < Formula
   desc "kroller"
   homepage "https://github.com/anarcher/kroller"
   license ""
-  version "0.3.0"
+  version "0.3.1"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/anarcher/kroller/releases/download/v0.3.0/kroller_0.3.0_darwin_amd64.tar.gz"
-      sha257 "2db3cb5f9c63bfc1688b8da119c2b4b96f17ddc17b940dd1bb11e5c41df1ff73"
+      url "https://github.com/anarcher/kroller/releases/download/v0.3.1/kroller_0.3.1_darwin_amd64.tar.gz"
+      sha256 "d291096fad4618f3fb3acdebd4557e4e7e10222a4ce32d4e77cca65521745b82"
 
       def install
         bin.install "kroller"
@@ -18,8 +18,8 @@ class Kroller < Formula
     end
 
     if Hardware::CPU.arm?
-      url "https://github.com/anarcher/kroller/releases/download/v0.3.0/kroller_0.3.0_darwin_arm64.tar.gz"
-      sha256 "7aca99a16d10b8aae89c859e80d03607e6d59057741df8f503e99a6f0ea66287"
+      url "https://github.com/anarcher/kroller/releases/download/v0.3.1/kroller_0.3.1_darwin_arm64.tar.gz"
+      sha256 "ccfbeb13338d150dcf71232a0edc9b7d48d4ec9c9ec5eea96e5fb6eb29635fe9"
 
       def install 
         bin.install "kroller"
