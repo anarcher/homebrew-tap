@@ -7,7 +7,7 @@ class RaindropIoMcpServer < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/anarcher/raindrop-io-mcp-server/releases/download/v0.0.1/raindrop-io-mcp-server_0.0.1_darwin_amd64.tar.gz"
-      sha256 "864b7a8e8f46c1beb5c9d5e62972fb4180f99c0b5a622c55d61334dd703f00c5"
+      sha256 "1c3d2753664cbf8108aa64ad0cbad20709d5ae9913aae3a9337046eef88beaae"
 
       def install
         bin.install "raindrop-io-mcp-server"
@@ -16,7 +16,7 @@ class RaindropIoMcpServer < Formula
 
     if Hardware::CPU.arm?
       url "https://github.com/anarcher/raindrop-io-mcp-server/releases/download/v0.0.1/raindrop-io-mcp-server_0.0.1_darwin_arm64.tar.gz"
-      sha256 "31615b32f82c776d6c2f4e06956ea30daf16d931a33faf266343aad9d016549c"
+      sha256 "da55fc96c6289e2217ae1ab99ceadbaaa2d59efca040f7e1e74a3df07bc2825b"
 
       def install
         bin.install "raindrop-io-mcp-server"

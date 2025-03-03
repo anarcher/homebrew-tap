@@ -1,0 +1,4 @@
+d291096fad4618f3fb3acdebd4557e4e7e10222a4ce32d4e77cca65521745b82  kroller_0.3.1_darwin_amd64.tar.gz
+ccfbeb13338d150dcf71232a0edc9b7d48d4ec9c9ec5eea96e5fb6eb29635fe9  kroller_0.3.1_darwin_arm64.tar.gz
+4d638c1f9205e2e078e1cc36c124757e4cf870740b9b437b201347ffc2027095  kroller_0.3.1_linux_amd64.tar.gz
+3d503e00bc19ebb5a1dd9d6fb8bef8359991f55ca6a98adc2626bdd8149ae1cb  kroller_0.3.1_linux_arm64.tar.gz
