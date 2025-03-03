@@ -1,0 +1,4 @@
+48bd52f255afd655766d16ee3dd05029b6720931c5b6b85b3c00e2d09f6bd24a  raindrop-io-mcp-server_Darwin_arm64.tar.gz
+a76e5e610657dbc2f24885e9d52d82ff129b999e205c44c2f6ecd230c8c7c799  raindrop-io-mcp-server_Darwin_x86_64.tar.gz
+32c06a1bc7ea3089e89bf8336c474f8b19b357f29372eaf7a268ac45c3a65771  raindrop-io-mcp-server_Linux_arm64.tar.gz
+dce3ddf30f7b552a5ac6e565a68d280b06ee170759523780c35bb79e25871e34  raindrop-io-mcp-server_Linux_x86_64.tar.gz
