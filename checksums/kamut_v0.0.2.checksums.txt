@@ -1,0 +1,2 @@
+df0b3103acde3f3376c5953a43e2a10fd956ed52ea4aecc4031280e771f18a15  kamut_0.0.2_darwin_arm64.tar.gz
+cc92ca5cf17dbfee598fd90d13eed769567e6959ebe86a4bdb889dc46a65f0d3  kamut_0.0.2_linux_amd64.tar.gz
