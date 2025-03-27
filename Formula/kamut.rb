@@ -5,12 +5,12 @@ class Kamut < Formula
   desc "kamut"
   homepage "https://github.com/anarcher/kamut"
   license ""
-  version "0.0.4"
+  version "0.0.5"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/anarcher/kamut/releases/download/v0.0.4/kamut_0.0.4_darwin_arm64.tar.gz"
-      sha256 "62509eb72c436b6ac8dbe66a68d6b7aab22dfedf2b85bac282ca3dc0bb182b56"
+      url "https://github.com/anarcher/kamut/releases/download/v0.0.5/kamut_0.0.5_darwin_arm64.tar.gz"
+      sha256 "7ed78a896dac97593dd2081558ae634f0a235573818d6d7c8d89593839130170"
 
       def install 
         bin.install "kamut"
@@ -20,8 +20,8 @@ class Kamut < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/anarcher/kamut/releases/download/v0.0.4/kamut_0.0.4_linux_amd64.tar.gz"
-      sha256 "b61fa258f021ce2c3cee8bd38a7d1dba81a99e017f8fb19b542d4866abbe8864"
+      url "https://github.com/anarcher/kamut/releases/download/v0.0.5/kamut_0.0.5_linux_amd64.tar.gz"
+      sha256 "5b48620c1d906567b67b87d744bc99b504f014c1d70c1c766238b30ff4adaa56"
 
       def install
         bin.install "kamut"
